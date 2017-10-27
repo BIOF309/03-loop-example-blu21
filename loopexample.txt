@@ -1,0 +1,17 @@
+A for loop can used in a fluorescence assay for example to find the sample with the highest and lowest fluorescence signal. The loop can take in a list of all the fluorescence values and determine the largest and smallest values from the list.
+
+Pseudocode
+ListF = [a,b,c, ...] #where a, b, and c are some integers representing fluorescent units.
+
+maxF = 0 #Set maxF as the variable representing the largest fluorescence value
+minF = 9999999999 #Set minF as the variable representing the smallest fluorescence value. I made the current value an integer that is higher than any of the integers in the List.
+
+#creating the for loop
+for i in ListF:
+    if i > maxF
+        maxF = i
+    if i < minF
+        minF = i
+
+print ("The highest fluorence value is " + maxF) #prints out highest value
+print ("The lowest fluorescence value is " + minF) #prints out lowest value
